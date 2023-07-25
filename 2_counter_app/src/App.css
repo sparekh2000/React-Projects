@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.counterAppContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.counterAppContainer > div:nth-last-child(2n){
+  background-color: palevioletred;
+}
+
+.addContainer{
+  color: white;
+
+  
+}
+.btnClass{
+  width: 200px;
+  font-size: large;
+  border-width: 8px;
+  background-color: white;
+  color: black
+  }
+
+.btnClass:hover{
+  background-color: black;
+  color: white;
 }
