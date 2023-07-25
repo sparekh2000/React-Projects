@@ -4,7 +4,7 @@ import './CounterApp.css';
 function CounterApp ({initVal, offsetVal}){
     const [counter, setCounter] = useState(initVal || 0);
     const [offset, setOffset] = useState(offsetVal || 1);
-
+    
     const incrementCounter = () => {
         setCounter(counter + offset);
     }
