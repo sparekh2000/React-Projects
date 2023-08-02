@@ -1,9 +1,11 @@
 import './App.css';
+import TempCard from './TempCard';
 
 function App() {
   return (
     <div className="App">
-      Initial
+      <h2>Temperature Card</h2>
+      <TempCard/>
     </div>
   );
 }
