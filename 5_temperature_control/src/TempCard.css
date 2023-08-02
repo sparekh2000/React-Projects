@@ -39,6 +39,11 @@
     font-size: 30px;
 }
 
+.btnClass:hover{
+    cursor: pointer;
+    background-color: rgb(129, 126, 126);
+}
+
 .lightBlueBg{
     background-color: aqua;
 }
