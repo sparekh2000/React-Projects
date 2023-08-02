@@ -1,0 +1,59 @@
+.tempContainer {
+    background-color: #2b5870;
+    border-radius: 0px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.temperature {
+    font-size: 40px;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: cadetblue;
+    transition: background-color 4s;
+}
+
+.actionButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.btnClass {
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.lightBlueBg{
+    background-color: aqua;
+}
+.blueBg{
+    background-color: skyblue;
+}
+.darkBlueBg{
+    background: cadetblue;
+}
+.orangeBg{
+    background-color: orange;
+}
+.darkOrangeBg{
+    background-color: rgb(218, 82, 13);
+}
+.redBg{
+    background-color: red;
+}
