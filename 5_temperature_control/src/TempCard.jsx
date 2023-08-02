@@ -7,7 +7,8 @@ function TempCard() {
     const tempRef = useRef();
 
     useEffect(()=>{
-        updateBackground();
+        // updateBackground();
+        updateBackgroundRef();
     });
 
     function getTempColor() {
@@ -24,7 +25,12 @@ function TempCard() {
         let color = getTempColor();
         element.className = `temperature ${color}`;
         console.log(element.className);
-    }   
+    }
+    
+    function updateBackgroundRef() {
+        let color = getTempColor();
+        tempRef.current.className = `temperature ${color}`;
+    } 
 
     return (
       <div className="tempContainer">
